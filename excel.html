@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دليل تعلم Excel لتحليل البيانات من الصفر حتى الاحتراف 2026</title>
+  <meta name="description" content="خطة عملية ومجانية لاحتراف Microsoft Excel في تحليل البيانات: أهم الدوال، الجداول المحورية Pivot Tables، ولوحات التحكم التفاعلية Dashboards.">
+  <style>
+    :root {
+      --primary: #107c41;
+      --primary-hover: #0b5a2f;
+      --text: #0f172a;
+      --text-muted: #475569;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+    }
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .logo {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: #2563eb;
+      text-decoration: none;
+    }
+    .back-link {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+    .back-link:hover { color: var(--text); }
+    .container {
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem;
+    }
+    .post-header {
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+    }
+    .badge {
+      display: inline-block;
+      background: #dcfce7;
+      color: #15803d;
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 0.3rem 0.75rem;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.1rem;
+      line-height: 1.3;
+      margin-bottom: 1rem;
+      color: var(--text);
+    }
+    .meta {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+    .content h2 {
+      font-size: 1.5rem;
+      margin: 2rem 0 1rem;
+      color: var(--text);
+      border-right: 4px solid var(--primary);
+      padding-right: 0.75rem;
+    }
+    .content p {
+      margin-bottom: 1.25rem;
+      color: #334155;
+      font-size: 1.05rem;
+    }
+    .content ul, .content ol {
+      margin-bottom: 1.5rem;
+      padding-right: 1.5rem;
+      color: #334155;
+    }
+    .content li {
+      margin-bottom: 0.5rem;
+    }
+    .callout {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin: 1.5rem 0;
+    }
+    .callout-title {
+      font-weight: 700;
+      color: #166534;
+      margin-bottom: 0.5rem;
+    }
+    .btn-action {
+      display: inline-block;
+      background: var(--primary);
+      color: #ffffff;
+      text-decoration: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 1rem;
+      margin: 1rem 0;
+      transition: background 0.2s;
+    }
+    .btn-action:hover {
+      background: var(--primary-hover);
+    }
+    footer {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      padding: 2rem 1rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo">FreeSkill Hub</a>
+    <a href="index.html" class="back-link">← العودة للرئيسية</a>
+  </header>
+
+  <div class="container">
+    <article class="post-header">
+      <span class="badge">مسار عملي مجاني</span>
+      <h1>دليل احتراف Excel لتحليل البيانات: من الصفر إلى لوحات التحكم (Dashboards)</h1>
+      <div class="meta">تحديث: 2026 • وقت القراءة: 6 دقائق • إعداد: FreeSkill Hub</div>
+    </article>
+
+    <div class="content">
+      <p>يظل برنامج <strong>Microsoft Excel</strong> الأداة الأساسية والأكثر طلباً في كل مجالات الأعمال وتحليل البيانات. حتى مع انتشار أدوات متقدمة، فإن إتقانك للإكسيل يمنحك ميزة تنافسية فورية في سوق العمل.</p>
+
+      <h2>المهارات الأساسية التي يحتاجها محلل البيانات</h2>
+      <p>بدلاً من تشتيت نفسك في مئات الدوال، ركز على هذه الركائز الأساسية:</p>
+      <ul>
+        <li><strong>تنظيف وتنسيق البيانات:</strong> استخدام أدوات إزالة التكرارات، وتقسيم النصوص (Text to Columns)، ومعالجة القيم المفقودة.</li>
+        <li><strong>أهم الدوال التحليلية:</strong> عائلة دوال العد والجمع الشرطي (COUNTIFS, SUMIFS)، ودوال البحث الحديثة مثل <code>XLOOKUP</code> التي تعتبر بديل VLOOKUP الأسرع والأدق.</li>
+        <li><strong>الجداول المحورية (Pivot Tables):</strong> تلخيص آلاف السطور بضغطة زر وعمل تقاطعات ذكية بين البيانات.</li>
+        <li><strong>المخططات التفاعلية و Dashboards:</strong> ربط الجداول بـ Slicers لإنشاء تقارير بصرية تتيح لمديرك تصفية الأرقام تفاعلياً.</li>
+      </ul>
+
+      <div class="callout">
+        <div class="callout-title">💡 نصيحة للقبول الوظيفي:</div>
+        <p>لا تكتفِ بكتابة كلمة "متقن للإكسيل" في سيرتك الذاتية. أنشئ نموذج لوحة تحكم (Dashboard) كامل ببيانات واقعية، واحفظه كملف تفاعلي واعرضه في معرض أعمالك.</p>
+      </div>
+
+      <h2>أفضل المصادر المجانية لتعلم الإكسيل تطبيقياً</h2>
+      <ol>
+        <li><strong>قناة ExcelIsFun (YouTube):</strong> كنز مجاني يحتوي على مسارات كاملة من الصفر حتى النماذج المعقدة مع ملفات تدريبية للتحميل.</li>
+        <li><strong>دورة Microsoft الرسمية المجانية:</strong> مخصصة لأساسيات الدوال والاختصارات على موقع الدعم الرسمي.</li>
+      </ol>
+
+      <a href="https://support.microsoft.com/en-us/excel" target="_blank" rel="noopener noreferrer" class="btn-action">دليل مايكروسوفت التعليمي لـ Excel</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 FreeSkill Hub - دليلك المستقل للتعليم والمهارات الرقمية المجانية.</p>
+  </footer>
+
+</body>
+</html>
